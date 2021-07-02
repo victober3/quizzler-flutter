@@ -59,7 +59,12 @@ class _QuizPageState extends State<QuizPage> {
     'You can lead a cow down stairs but not up stairs.',
     'Approximately one quarter of human bones are in the feet.',
     'A slug\'s blood is green.',
-  ];
+    'cocroaches bites at night',
+    ' group of cangaroo is called school',
+
+      ];
+  List <bool> answer  = [false, true, true];
+
   int questionNumber = 0;
   @override
   Widget build(BuildContext context) {
